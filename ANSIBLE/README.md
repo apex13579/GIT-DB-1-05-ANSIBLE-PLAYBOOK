@@ -10,3 +10,10 @@ This repository contains the Ansible configuration used to build and manage the 
 - `playbooks/` — Main Ansible playbooks
 - `roles/` — Reusable Ansible roles
 - `requirements.yml` — Ansible collection dependencies
+
+## Usage
+
+Run the main playbook from the `ansible/` directory:
+
+```bash
+ansible-playbook playbooks/site.yml
