@@ -1,1 +1,10 @@
-
+---
+- name: Install common packages
+  ansible.builtin.apt:
+    name:
+      - curl
+      - wget
+      - git
+      - unzip
+    state: present
+    update_cache: true
