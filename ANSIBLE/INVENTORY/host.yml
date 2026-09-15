@@ -1,7 +1,15 @@
+---
 all:
   children:
-    linux:
+    control:
       hosts:
         ansible:
           ansible_host: <control-node-ip>
           ansible_connection: ssh
+
+    linux:
+      hosts:
+        # Managed Linux systems will be added here
+        # Example:
+        # debian01:
+        #   ansible_host: <managed-host-ip>
