@@ -16,4 +16,5 @@ This repository contains the Ansible configuration used to build and manage the 
 Run the main playbook from the `ansible/` directory:
 
 ```bash
-ansible-playbook playbooks/site.yml```
+ansible-playbook playbooks/site.yml
+```
