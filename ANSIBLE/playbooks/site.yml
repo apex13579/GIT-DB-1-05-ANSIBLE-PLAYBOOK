@@ -2,3 +2,7 @@
 - name: Configure Linux systems
   hosts: linux
   become: true
+  tasks:
+    - name: Update APT package cache
+      ansible.builtin.apt:
+        update_cache: true
