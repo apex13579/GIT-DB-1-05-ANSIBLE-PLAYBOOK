@@ -9,6 +9,7 @@ This repository contains the Ansible configuration used to build and manage the 
 - `group_vars/` — Variables shared by host groups
 - `playbooks/` — Main Ansible playbooks
 - `roles/` — Reusable Ansible roles
+ - `common/` — Common configuration applied to Linux systems 
 - `requirements.yml` — Ansible collection dependencies
 
 ## Usage
