@@ -8,3 +8,7 @@ This role installs common packages required on managed Linux systems.
 - wget
 - git
 - unzip
+
+## Variables
+
+- `common_packages` — List of packages installed by the role
