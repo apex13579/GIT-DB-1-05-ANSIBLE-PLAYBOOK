@@ -4,3 +4,6 @@ common_packages:
   - wget
   - git
   - unzip
+
+common_supported_os:
+  - Debian
