@@ -1,1 +1,4 @@
-
+all:
+  children:
+    linux:
+      hosts:
