@@ -1,3 +1,4 @@
 ---
 - name: Configure Linux systems
   hosts: linux
+  become: true
