@@ -3,3 +3,4 @@ all:
     linux:
       hosts:
         ansible:
+          ansible_host: <control-node-ip>
